@@ -4,16 +4,16 @@ has_bike = True
 has_car = True
 has_ride_share_app = True
 if distance_mi:
-    print('False')
-if distance_mi <= 1 and is_raining != True:
-    print('True')
-elif distance_mi <= 6 and has_bike == True and is_raining != True :
+    if distance_mi <= 1 and not is_raining:
         print('True')
-elif distance_mi > 6 and (has_car == True or has_ride_share_app == True) :
-    print('True')
+    elif distance_mi <= 6 :
+        if has_bike and not is_raining:
+            print('True')
+        else:
+            print('False')
+    elif has_car or has_ride_share_app:
+        print('True')
+    else:
+        print('False')
 else:
     print('False')
-
-
-
-
