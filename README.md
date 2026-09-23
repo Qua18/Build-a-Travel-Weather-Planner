@@ -1,30 +1,30 @@
-#Build a Travel Weather Planner
-For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
+Build a Travel Weather Planner<br>
+For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.<br>
 
-Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
+Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.<br>
 
-User Stories:
+User Stories:<br>
 
-You should create the following variables:
-distance_mi (a number representing the distance to travel in miles)
-is_raining (a boolean representing if the user is currently experiencing rainy weather)
-has_bike (a boolean representing if the user has a bicycle)
-has_car (a boolean representing if the user has a car)
-has_ride_share_app (a boolean representing if the user has an app that allows them to request a ride)
-You should use conditional statements to determine whether commuting is possible based on the values of these variables.
+You should create the following variables:.<br>
+distance_mi (a number representing the distance to travel in miles).<br>
+is_raining (a boolean representing if the user is currently experiencing rainy weather).<br>
+has_bike (a boolean representing if the user has a bicycle).<br>
+has_car (a boolean representing if the user has a car).<br>
+has_ride_share_app (a boolean representing if the user has an app that allows them to request a ride).<br>
+You should use conditional statements to determine whether commuting is possible based on the values of these variables.<br>
 You should use if, elif, and else statements to evaluate the distance categories in ascending order.
-If distance_mi is a falsy value:
-You should print False.
-If the distance is less than or equal to 1 mile:
-You should print True only if it is not raining.
-Otherwise, you should print False.
-If the distance is greater than 1 mile and less than or equal to 6 miles:
-You should print True only if the person has a bike and it is not raining.
-Otherwise, you should print False.
-If the distance is greater than 6 miles:
-You should print True if the person has a car or has a ride-share app.
-Otherwise, you should print False.
-Tests:
+If distance_mi is a falsy value:.<br>
+You should print False..<br>
+If the distance is less than or equal to 1 mile:.<br>
+You should print True only if it is not raining..<br>
+Otherwise, you should print False..<br>
+If the distance is greater than 1 mile and less than or equal to 6 miles:.<br>
+You should print True only if the person has a bike and it is not raining..<br>
+Otherwise, you should print False..<br>
+If the distance is greater than 6 miles:.<br>
+You should print True if the person has a car or has a ride-share app..<br>
+Otherwise, you should print False..<br>
+Tests:.<br>
 1. You should have a variable named distance_mi.
 2. You should assign a number to your distance_mi variable.
 3. You should have a variable named is_raining.
