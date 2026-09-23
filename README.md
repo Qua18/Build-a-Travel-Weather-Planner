@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Build a Travel Weather Planner
+Build a Travel Weather Planner
 For this lab, you will use conditional statements to determine whether commuting is possible based on the weather, the distance to travel, and the availability of a vehicle.
 
 Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
@@ -49,6 +48,3 @@ Tests:
 21. When the distance is greater than 6 miles and a ride share app is available, the program should print True.
 22. When the distance is greater than 6 miles and a car is available, the program should print True.
 23. When the distance is greater than 6 miles and no car nor a ride share app is available, the program should print False.
-=======
-# Build a Travel Weather Planner - Freecodecamp
->>>>>>> fec9af2703ab3ffb19b3edecc56d67ddaa6613d9
